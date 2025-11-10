@@ -8,6 +8,7 @@ Run Instructions:
 - Make sure your machine has Python 3.4 or later installed along with pgAdmin4
 - Open pgAdmin4 and create a new database according to the requirements of the spec.
 - Ensure reqs are as follows:
+- 
     	dbname= "A2Q1",  
 		user="postgres",   
 		password= pw,  
@@ -23,6 +24,7 @@ Use instructions:
 - Once running, input the password indicated in the submission notes when prompted.
 
 - Select any of the options provided to run queries to alter the "students" table in the PostgreSQL db.
+
 
 
 
