@@ -3,11 +3,11 @@ import random
 import hashlib
 
 def main():
-    
-    #password validation to avoid publishing the postgreSQL password in the repository
+
+	#get the user info
     uuid = input("enter your postgres username")
-	pw = input("enter your password to gain access to your db remotely.")
-	name = input("enter the name of the db you want to access")
+    pw = input("enter your password to gain access to your db remotely.")
+    name = input("enter the name of the db you want to access")
     
     #setting up the connection to the database using psycopg
     conn = psycopg2.connect(
@@ -148,3 +148,4 @@ def deleteStudent(curs, connec, sID):
     
 
 main()   
+
