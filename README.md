@@ -25,6 +25,9 @@ Use instructions:
 
 - Select any of the options provided to run queries to alter the "students" table in the PostgreSQL db.
 
+Video link: https://www.dropbox.com/scl/fi/9j257i6n7ryies6epsdky/2025-11-09-20-45-55.mp4?rlkey=l1kb4nk9hmajmn0pwgpity8d5&st=khofeij0&dl=0
+
+
 
 
 
