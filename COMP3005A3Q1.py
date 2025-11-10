@@ -5,19 +5,14 @@ import hashlib
 def main():
     
     #password validation to avoid publishing the postgreSQL password in the repository
-    pw = input("enter the password indicated in the submission notes")
-    
-    validation_hash = "11e1dd56e313c7c3eccf7a30dbeaa98ae40f513a93fadddec7599cdcb58aedf4"   
-    pw_hash = hashlib.sha256(pw.encode("utf-8")).hexdigest()
-
-    if pw_hash != validation_hash:
-        print("incorrect password")
-        return
+    uuid = input("enter your postgres username")
+	pw = input("enter your password to gain access to your db remotely.")
+	name = input("enter the name of the db you want to access")
     
     #setting up the connection to the database using psycopg
     conn = psycopg2.connect(
-		dbname= "A2Q1",  
-		user="postgres",   
+		dbname= name,  
+		user= uuid,   
 		password= pw,  
 		host="localhost",       
 		port="5432"  
@@ -151,4 +146,5 @@ def deleteStudent(curs, connec, sID):
     
     print("deleted")
     
+
 main()   
