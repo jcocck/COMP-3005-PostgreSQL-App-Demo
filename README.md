@@ -6,10 +6,10 @@ Documentation can be found here: https://pypi.org/project/psycopg2
 Run Instructions:
 
 - Make sure your machine has Python 3.4 or later installed along with pgAdmin4
-- Open pgAdmin4 and create a new database according to the requirements of the spec.
-- Ensure reqs are as follows:
+- Open pgAdmin4 and create a new database according to the requirements of the spec. Make sure that the table is named "students" and that all of the columns are correctly named.
+- Ensure fields are as follows:
 - 
-    	dbname= "A2Q1",  
+    	name the database "A2Q1",  
 		user="postgres",   
 		password= pw,  
 		host="localhost",       
@@ -26,6 +26,7 @@ Use instructions:
 - Select any of the options provided to run queries to alter the "students" table in the PostgreSQL db.
 
 Video link: https://www.dropbox.com/scl/fi/9j257i6n7ryies6epsdky/2025-11-09-20-45-55.mp4?rlkey=l1kb4nk9hmajmn0pwgpity8d5&st=khofeij0&dl=0
+
 
 
 
